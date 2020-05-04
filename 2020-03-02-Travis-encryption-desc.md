@@ -5,7 +5,8 @@ cover:  assets/images/travis.png
 navigation: True
 title: Travis 中的几类数据加密
 date: 2020-03-01 20:01:01
-tags: [dev git]
+tags:
+  - dev git
 class: post-template
 subclass: 'post dev git'
 author: dexfire

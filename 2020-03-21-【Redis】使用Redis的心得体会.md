@@ -5,7 +5,10 @@ cover:  redis.png
 navigation: True
 title: 【redis】一、Redis 数据库入门初体验
 date: 2020-03-21 23:17:00
-tags: [redis, cs, dev]
+tags:
+  - redis
+  - cs
+  - dev
 class: post-template
 subclass: 'post redis cs dev'
 author: dexfire

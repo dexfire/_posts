@@ -5,7 +5,9 @@ cover: assets/images/Python.png
 navigation: True
 title: 【Python】Python PIL实现多图拼接为长图
 date: 2020-04-19 01:09:26
-tags: [python, dev]
+tags:
+  - python
+  - dev
 class: post-template
 subclass: 'python dev'
 author: dexfire
@@ -20,7 +22,7 @@ comment: True
 ![输入多图](/assets/imgaes/2020年4月19日，python图像拼接.jpg)
 
 ## 输出图像
-![输出图像](/assets/images/2345截图20200419011309.jpg)
+![输出图像](/img/2345截图20200419011309.jpg)
 
 ## 实现代码
 ```python

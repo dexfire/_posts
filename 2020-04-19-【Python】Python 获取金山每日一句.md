@@ -5,7 +5,8 @@ cover: assets/images/Python.png
 navigation: True
 title: 【Python】Python 获取金山每日一句
 date: 2020-04-19 10:06:09
-tags: [python]
+tags:
+  - python
 class: post-template
 subclass: 'python'
 author: dexfire

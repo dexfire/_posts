@@ -5,7 +5,8 @@ cover:  assets/images/python.png
 navigation: True
 title: Python argparse 模块使用记录
 date: 2020-03-01 20:01:01
-tags: [python]
+tags:
+  - python
 class: post-template
 subclass: 'post python'
 author: dexfire

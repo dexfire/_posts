@@ -5,7 +5,9 @@ cover: assets/images/Python.png
 navigation: True
 title: 【Python】Python 运行shell脚本
 date: 2020-04-13 08:55:18
-tags: [python, dev]
+tags:
+  - python
+  - dev
 class: post-template
 subclass: 'python dev'
 author: dexfire

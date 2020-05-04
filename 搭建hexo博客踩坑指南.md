@@ -7,3 +7,7 @@ tags:
   - cs
 ---
 
+# 搭建hexo博客踩坑指南~
+
+最近无意间看到这个Sakura主题的 cnblogs 的博客，[](https://www.cnblogs.com/lavender1221/p/12689426.html)
+

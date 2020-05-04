@@ -5,7 +5,9 @@ cover:  python.png
 navigation: True
 title: 【Python】Python正则表达式re.sub()之原位替换
 date: 2020-03-11 00:49:00
-tags: [python, dev]
+tags:
+  - python
+  - dev
 class: post-template
 subclass: 'post python, dev'
 author: dexfire
@@ -45,7 +47,7 @@ comment: True
 
 这个表格大体是这个格式：
 
-![Python支持的编码格式](/assets/images/QQ截图20200311010842.png)
+![Python支持的编码格式](/img/QQ截图20200311010842.png)
 
 我们搜索ASCII关键字，发现其中涉及到ASCII的寥寥无几，反正是为了偷懒，司马当活马医，看上哪个就用哪个了。
 
@@ -97,7 +99,7 @@ And turn it into:
 After I do the conversion, I'll probe to see if the string I have is encoded in UTF-8 or UTF-16.
 
 我们看到了几个提供了线索的答案，也就是：
-![p1](/assets/images/QQ截图20200311012229.png)
+![p1](/img/QQ截图20200311012229.png)
 这里是使用了编码后解码的方案，这里我也找到了另外一个看起来比较靠谱的代码：
 
 `feed.encode('utf8').decode('unicode_escape')`
@@ -121,9 +123,9 @@ After I do the conversion, I'll probe to see if the string I have is encoded in 
 
 ## 方案二
 下面验证另外一种方法：
-![p2](/assets/images/QQ截图20200311012330.png)
+![p2](/img/QQ截图20200311012330.png)
 
 ## 方案三：使用`codecs`类进行escape_decode
-![](/assets/images/QQ截图20200311013556.png)
+![](/img/QQ截图20200311013556.png)
 
 ## 方案四：使用`re`进行正则替换

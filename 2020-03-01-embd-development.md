@@ -5,7 +5,8 @@ cover:  assets/images/东方水光月.jpg
 navigation: True
 title: 嵌入式开发概述
 date: 2020-03-01 00:57:00
-tags: [embed]
+tags:
+  - embed
 class: post-template
 subclass: 'post embed'
 author: dexfire

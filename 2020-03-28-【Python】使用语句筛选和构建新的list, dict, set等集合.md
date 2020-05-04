@@ -5,7 +5,9 @@ cover:  python.png
 navigation: True
 title: 【Python】使用语句筛选和构建新的list, dict, set等集合
 date: 2020-03-28 14:17:00
-tags: [python, dev]
+tags:
+  - python
+  - dev
 class: post-template
 subclass: 'post python, dev'
 author: dexfire
