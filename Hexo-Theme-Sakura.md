@@ -8,12 +8,12 @@ authorDesc: 一个好奇的人
 categories: 技术
 date: 2018-12-12 22:16:01
 comments: true
-tags: 
+tags:
  - web
  - 悦读
 keywords: Sakura
 description: hexo-sakura主题使用教程
-photos: https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png
+photos: https://2heng.xin/wp-content/uploads/2019/02/wallhaven-672007-1-1024x576.png
 ---
 hexo-theme-sakura主题 [English document](https://github.com/honjun/hexo-theme-sakura/blob/master/README.md)
 
@@ -78,7 +78,7 @@ timezone:
 ```yml
 deploy:
   type: git
-  repo: 
+  repo:
     github: 你的github仓库地址
     # coding: 你的coding仓库地址
   branch: master
@@ -131,24 +131,24 @@ lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progre
 # 站点菜单配置 【选】
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
-    技术: {path: /categories/技术/, fa: fa-code }, 
-    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
-    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: {
+    技术: {path: /categories/技术/, fa: fa-code },
+    生活: {path: /categories/生活/, fa: fa-file-text-o },
+    资源: {path: /categories/资源/, fa: fa-cloud-download },
     随想: {path: /categories/随想/, fa: fa-commenting-o },
     转载: {path: /categories/转载/, fa: fa-book }
   } }
-  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
-    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
-    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce },
+    番组: {path: /bangumi/, fa: fa-film faa-vertical },
     歌单: {path: /music/, fa: fa-headphones },
     图集: {path: /tags/图集/, fa: fa-photo }
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
-  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
-    我？: {path: /about/, fa: fa-meetup}, 
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: {
+    我？: {path: /about/, fa: fa-meetup},
     主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
     Lab: {path: /lab/, fa: fa-cogs },
   } }
@@ -165,7 +165,7 @@ homeArticleShown: 10
 bgn: 8
 
 # startdash面板 url, title, desc img 【改】
-startdash: 
+startdash:
   - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
   - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
   - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
@@ -204,7 +204,7 @@ movies:
   name: Unbroken.mp4
 
 # 左下角aplayer播放器配置 主要改id和server这两项，修改详见[aplayer文档] 【改】
-aplayer: 
+aplayer:
   id: 2660651585
   server: netease
   type: playlist
@@ -236,7 +236,7 @@ v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
 # 按分类名创建
 技术:
     #中文标题
-    zh: 野生技术协会 
+    zh: 野生技术协会
     # 英文标题
     en: Geek – Only for Love
     # 封面图片
@@ -262,7 +262,7 @@ v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
 title: comment
 date: 2018-12-20 23:13:48
 keywords: 留言板
-description: 
+description:
 comments: true
 # 在这里配置单页面头部图片，自定义替换哦~
 photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/comment.jpg
@@ -316,16 +316,16 @@ bangumis:
 layout: links
 title: links
 # 创建日期，可以改下
-date: 2018-12-19 23:11:06 
+date: 2018-12-19 23:11:06
 # 图片上的标题，自定义修改
-keywords: 友人帐 
-description: 
+keywords: 友人帐
+description:
 # true/false 开启/关闭评论
-comments: true 
+comments: true
 # 页面头部图片，自定义修改
-photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/links.jpg 
+photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/links.jpg
 # 友链配置
-links: 
+links:
   # 类型分组
   - group: 个人项目
     # 类型简介
