@@ -10,6 +10,83 @@ tags:
 
 # hexo博客美化完全攻略
 
+Hexo 是一款开源的模板（template）网站搭建系统，是搭建一个轻量级网站（产品主页、Docs、个人博客、个人简历容器）的最佳选择。Hexo的技术栈大致有：
+- Web 层
+  - `html`
+  - `js`
+  - `css`
+- 应用模板层
+  - `Nunjucks`
+  - `ejs`
+  - `stylus`
+- 底层插件实现
+  - `Node.js`
+
+## 主题项目结构
+
+```
+├─ layout
+│  ├─ layout.ejs
+│  ├─ index.ejs
+│  ├─ archive.ejs
+│  ├─ post.ejs
+│  ├─ page.ejs
+│  ├─ tag.ejs
+│  ├─ category.ejs
+├─ source
+│  ├─ scss
+│  ├─ css
+│  ├─ fonts
+│  ├─ js
+│  ├─ images
+├─ _config.yml
+├─ LICENSE
+├─ package.json
+├─ README.md
+```
+
+### 模板
+
+| Template | Page              | Fallback |
+| -------- | ----------------- | -------- |
+| index    | Home page         |          |
+| post     | Posts             | index    |
+| page     | Pages             | index    |
+| archive  | Archives          | index    |
+| category | Category archives | archive  |
+| tag      | Tag archives      | archive  |
+
+#### layouts
+
+假定 `layout.ejs` `index.ejs` 内容如下：
+
+```html
+<!DOCTYPE html>
+<html>
+  <body><%- body %></body>
+</html>
+```
+
+```html
+  Homepage.
+```
+
+那么渲染结果为：  
+```html
+<!DOCTYPE html>
+<html>
+  <body>Homepage.</body>
+</html>
+```
+
+### templating 语法 : hexo-ejs
+
+hexo中的ejs与nunjucks
+
+### templating 语法 : Nunjucks
+
+模板语法主要涉及
+
 ## 使用jsDeliver服务器cdn加速
 github pages 使用 亚马逊服务器，本身在国内访问速度很慢，所以一些常用的资源文件，采用cdn分布式加速网络可以显著提高响应速度。
 

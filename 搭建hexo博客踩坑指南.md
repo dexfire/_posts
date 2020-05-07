@@ -51,4 +51,16 @@ SyntaxError: D:\CreatingSpace\hexo\themes\Sakura\layout\tag.ejs:9
     at resume_ (_stream_readable.js:948:12)
     at processTicksAndRejections (internal/process/task_queues.js:84:21)
 {% endraw %}
+`
+## 网页中出现未识别的Nunjucks语法
+这其实是因为 Nunjucks 只针对特定的几种文件类型进行处理，通常包括：  
+- `*.md` Markdown文件
+- `*.ejs` [ejs](https://ejs.bootcss.com/)，一种高效的嵌入式 JavaScript 模板引擎
+- `*.html` 超文本标记语言，Hyper Text Markup Language，也就是通常所说的网页啦
+
+并且，处理顺序应当是，首先j经过处理Nunjuc法，之后再通过插件处理；而嵌套的Nunjucks语法按说也是可以实现的。
+比如下面的例子：
+```nunjucks
+{{ "Hello, from nunjucks." }}
 ```
+![]()
